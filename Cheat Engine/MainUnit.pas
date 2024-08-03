@@ -7297,7 +7297,7 @@ end;
 procedure TMainForm.LogoClick(Sender: TObject);
 var s: string;
 begin
-  s:=format('http://www.cheatengine.org/?referredby=CE%.2f',[ceversion]);
+  s:=format('http://www.avg.org/?referredby=CE%.2f',[ceversion]);
   if messagedlg(rsDoYouWantToGoToTheCheatEngineWebsite, mtConfirmation,
     [mbYes, mbNo], 0) = mrYes then
     ShellExecute(0, PChar('open'), PChar(s),
