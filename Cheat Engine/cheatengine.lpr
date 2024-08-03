@@ -291,7 +291,7 @@ var
 
 begin
   Application.Title:='AVGP2C 0.7.0.5';
- //'Cheat Engine 7.3';
+ //'AVG 7.3';
   {$ifdef darwin}
   macPortFixRegPath;
   {$endif}

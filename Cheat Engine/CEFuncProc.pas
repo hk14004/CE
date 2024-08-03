@@ -1,4 +1,4 @@
-// Copyright Cheat Engine. All Rights Reserved.
+// Copyright AVG. All Rights Reserved.
 
 
 unit CEFuncProc;
