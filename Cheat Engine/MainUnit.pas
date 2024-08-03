@@ -5899,7 +5899,7 @@ begin
   callhelp := False;
   Result := True;
 
-  wikipath:='https://wiki.cheatengine.org/index.php';
+  wikipath:='https://wiki.AVF.org/index.php';
   wikiurl:='';
 
   if command = HELP_CONTEXT then
@@ -11137,7 +11137,7 @@ end;
 
 procedure TMainForm.Helpindex1Click(Sender: TObject);
 begin
-  ShellExecute(0,'open','https://wiki.cheatengine.org/index.php',nil,nil,SW_SHOW);
+  ShellExecute(0,'open','https://wiki.avg.org/index.php',nil,nil,SW_SHOW);
 //  Application.HelpContext(1);
 end;
 

@@ -161,12 +161,12 @@ end;
 
 procedure TAbout.Label8Click(Sender: TObject);
 begin
-  ShellExecute(0, pchar('open'),pchar('https://cheatengine.org/'), pchar(''),pchar(''), SW_MAXIMIZE	);
+  ShellExecute(0, pchar('open'),pchar('https://avg.org/'), pchar(''),pchar(''), SW_MAXIMIZE	);
 end;
 
 procedure TAbout.Label9Click(Sender: TObject);
 begin
-  ShellExecute(0, pchar('open'),pchar('http://forum.cheatengine.org/'), pchar(''),pchar(''), SW_MAXIMIZE	);
+  ShellExecute(0, pchar('open'),pchar('http://forum.avg.org/'), pchar(''),pchar(''), SW_MAXIMIZE	);
 end;
 
 procedure TAbout.Image1MouseDown(Sender: TObject; Button: TMouseButton;

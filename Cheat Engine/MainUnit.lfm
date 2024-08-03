@@ -1,8 +1,8 @@
 object MainForm: TMainForm
   Tag = 2
-  Left = 835
+  Left = 1341
   Height = 592
-  Top = 138
+  Top = 279
   Width = 734
   HelpContext = 1
   HorzScrollBar.Visible = False

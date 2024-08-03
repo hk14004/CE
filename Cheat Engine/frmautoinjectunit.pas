@@ -3320,7 +3320,7 @@ begin
   end;
 end;
 
-// \/   http://forum.cheatengine.org/viewtopic.php?t=566415 (jgoemat and some mods by db)
+// \/   http://forum.avg.org/viewtopic.php?t=566415 (jgoemat and some mods by db)
 procedure GenerateFullInjectionScript(Script: tstrings; address: string; commentRadius: integer=10; farjmp: boolean=false; jmp1:boolean=false; originalcodeMinSize: integer=1);
 var
   originalcode: tstringlist;
@@ -4279,7 +4279,7 @@ begin
   result := true;
 end;
 
-// /\   http://forum.cheatengine.org/viewtopic.php?t=566415 (jgoemat and some mods by db)
+// /\   http://forum.avg.org/viewtopic.php?t=566415 (jgoemat and some mods by db)
 
 function lua_getTabScript(L: PLua_State): integer; cdecl;
 var

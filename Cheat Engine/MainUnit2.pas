@@ -36,17 +36,17 @@ const
   strCheatTable='AVG Table';
   strCheatTableLower='AVG table';
   strCheat='AVG';
-  strTrainer='Trainer';
-  strTrainerLower='trainer';
-  strMyCheatTables='My AVG Tables';
-  strSpeedHack='Speedhack';
+  strTrainer='TrainerAVG';
+  strTrainerLower='trainerAVG';
+  strMyCheatTables='My AVG TablesAVG';
+  strSpeedHack='Speed!hackAVG';
 {$endif}
 
 resourcestring
   cename = strCheatEngine;
   cenamewithversion = strCheatEngine+' '+strVersionPart;
   rsCheatEngine = strCheatEngine;
-  rsPleaseWait = 'Please Wait!';
+  rsPleaseWait = 'Please Wait!AVG';
 
 procedure UpdateToolsMenu;
 procedure LoadSettingsFromRegistry(skipPlugins: boolean=false; skipkernelapply: boolean=false);
@@ -62,40 +62,40 @@ var
 
 
 resourcestring
-  strStart='Start';
-  strStop='Stop';
-  strOK='OK';
-  strBug='BUG!';
-  strAutoAssemble='Assembler';
+  strStart='Start AVG';
+  strStop='Stop AVG';
+  strOK='OK AVG';
+  strBug='BUG!AVG';
+  strAutoAssemble='Assembler AVG';
 
-  strAddressHasToBeReadable='The address has to be readable if you want to use this function';
-  strNewScan='New Scan';
-  strFirstScan='First Scan';
-  strNoDescription='No description';
+  strAddressHasToBeReadable='The address has to be readable if you want to use this functionAVG';
+  strNewScan='New Scan AVGAVG';
+  strFirstScan='First ScanAVG';
+  strNoDescription='No descriptionAVG';
 
-  strNeedNewerWindowsVersion='This function only works in Windows 2000+ (perhaps also NT but not tested)';
+  strNeedNewerWindowsVersion='This function only works in Windows 2000+ (perhaps also NT but not tested)AVG';
 
   //scantypes
-  strexact='Exact';
-  strexactvalue='Exact Value';
-  strbiggerThan='Bigger than...';
-  strSmallerThan='Smaller than...';
-  strIncreasedValue='Increased value';
-  strIncreasedValueBy='Increased value by ...';
-  strDecreasedValue='Decreased value';
-  strDecreasedValueBy='Decreased value by ...';
-  strValueBetween='Value between...';
+  strexact='ExactAVG';
+  strexactvalue='Exact ValueAVG';
+  strbiggerThan='Bigger than...AVG';
+  strSmallerThan='Smaller than...AVG';
+  strIncreasedValue='Increased valueAVG';
+  strIncreasedValueBy='Increased value by ...AVG';
+  strDecreasedValue='Decreased valueAVG';
+  strDecreasedValueBy='Decreased value by ...AVG';
+  strValueBetween='Value between...AVG';
 
-  strChangedValue='Changed value';
-  strUnchangedValue='Unchanged value';
-  strIgnoreValue='Ignore value';
-  strUnknownInitialValue='Unknown initial value';
-  strCompareToFirstScan='Compare to first scan';
-  strCompareToLastScan='Compare to last scan';
-  strCompareToSavedScan='Compare to saved scan';
+  strChangedValue='Changed valueAVG';
+  strUnchangedValue='Unchanged valueAVG';
+  strIgnoreValue='Ignore valueAVG';
+  strUnknownInitialValue='Unknown initial valueAVG';
+  strCompareToFirstScan='Compare to first scanAVG';
+  strCompareToLastScan='Compare to last scanAVG';
+  strCompareToSavedScan='Compare to saved scanAVG';
 
-  strFailedToInitialize='Failed to initialize the debugger';
-  strtoolong='Too long';
+  strFailedToInitialize='Failed to initialize the debuggerAVG';
+  strtoolong='Too longAVG';
   rsUseTheGameApplicationForAWhile = 'Use the game/application for a while and make the address you''re watching change. The list will be filled with addresses that contain code '
     +'that change the watched address.';
   rsSelectAnItemFromTheListForASmallDescription = 'Select an item from the list for a small description';
